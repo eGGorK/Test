@@ -25,7 +25,7 @@ int main(void)
     GLFWwindow* window;
 
     if (!glfwInit())
-    {
+    {   
         std::cout << "glfwInit failed!" << std::endl;
         return -1;
     }
